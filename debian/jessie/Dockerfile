@@ -1,3 +1,3 @@
-FROM idcu/idcu:v0.0.0
+FROM idcu/idcu:v1.1.1
 ADD rootfs.tar.xz /
 CMD ["/bin/bash"]
