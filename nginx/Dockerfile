@@ -1,6 +1,4 @@
-FROM idcu/idcu:v1.1.1
-
-ADD ../debian/jessie
+FROM idcu/debian:jessie
 
 ENV NGINX_VERSION 1.9.4-1~jessie
 
